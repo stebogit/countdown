@@ -1,0 +1,102 @@
+// https://momentumdash.com/app/backgrounds.json
+
+var backgrounds = [
+    {
+        "filename": "01.jpg",
+        "title": "La Push, Washington, USA",
+        "source": "Dave Morrow",
+        "sourceUrl": "https://www.flickr.com/photos/daves-f-stop/8079071366",
+        "accent": "rgb(120, 126, 181)"
+    },
+    {
+        "filename": "02.jpg",
+        "title": "Zug, Switzerland",
+        "source": "Magdalena Roeseler",
+        "sourceUrl": "https://www.flickr.com/photos/magdalenaroeseler/10497301253",
+        "accent": "rgb(212, 162, 87)"
+    },
+    {
+        "filename": "03.jpg",
+        "title": "Andøya, Norway",
+        "source": "Stian Klo",
+        "sourceUrl": "http://500px.com/photo/41198398/h%C3%B8yvika-beach-by-stian-klo",
+        "accent": "rgb(77, 120, 99)"
+    },
+    {
+        "filename": "04.jpg",
+        "title": "Saxon Switzerland, Germany",
+        "source": "skoeber",
+        "sourceUrl": "https://www.flickr.com/photos/asphericlens/6345711358",
+        "accent": "rgb(237, 150, 131)"
+    },
+    {
+        "filename": "05.jpg",
+        "title": "Saxon Switzerland, Germany",
+        "source": "skoeber",
+        "sourceUrl": "https://www.flickr.com/photos/asphericlens/14366773224",
+        "accent": "rgb(180, 108, 72)"
+    },
+    {
+        "filename": "06.jpg",
+        "title": "Saxony, Germany",
+        "source": "skoeber",
+        "sourceUrl": "https://www.flickr.com/photos/asphericlens/7160610404",
+        "accent": "rgb(232, 185, 49)"
+    },
+    {
+        "filename": "07.jpg",
+        "title": "Source Unknown",
+        "source": "Submit Source",
+        "sourceUrl": "mailto:feedback@momentumdash.com",
+        "accent": "rgb(190, 130, 61)"
+    },
+    {
+        "filename": "08.jpg",
+        "title": "Otzarreta Forest, Spain",
+        "source": "Jesús Ignacio Bravo Soler",
+        "sourceUrl": "http://500px.com/photo/68800189/singular-by-jes%C3%BAs-ignacio-bravo-soler",
+        "accent": "rgb(180, 84, 44)"
+    },
+    {
+        "filename": "09.jpg",
+        "title": "Palouse Falls, Washington, USA",
+        "source": "Dave Morrow",
+        "sourceUrl": "https://www.flickr.com/photos/daves-f-stop/9593394811",
+        "accent": "rgb(191, 96, 109)"
+    },
+    {
+        "filename": "10.jpg",
+        "title": "San Francisco, California, USA",
+        "source": "Dave Morrow",
+        "sourceUrl": "https://www.flickr.com/photos/daves-f-stop/11713436133",
+        "accent": "rgb(154, 150, 199)"
+    },
+    {
+        "filename": "11.jpg",
+        "title": "Auster-Skaftafellssysla, Iceland",
+        "source": "Dave Morrow",
+        "sourceUrl": "https://www.flickr.com/photos/daves-f-stop/8272381830",
+        "accent": "rgb(168, 212, 39)"
+    },
+    {
+        "filename": "12.jpg",
+        "title": "Hvide Sande, Denmark",
+        "source": "Chris Zielecki",
+        "sourceUrl": "https://www.flickr.com/photos/zanthia/7870409330",
+        "accent": "rgb(60, 164, 180)"
+    },
+    {
+        "filename": "13.jpg",
+        "title": "Paptsdorf, Germany",
+        "source": "skoeber",
+        "sourceUrl": "https://www.flickr.com/photos/asphericlens/7227178308",
+        "accent": "rgb(181, 86, 58)"
+    },
+    {
+        "filename": "14.jpg",
+        "title": "Teton Range, Wyoming, USA",
+        "source": "Trey Ratcliff",
+        "sourceUrl": "https://www.flickr.com/photos/stuckincustoms/3124621920",
+        "accent": "rgb(61, 108, 180)"
+    }
+];

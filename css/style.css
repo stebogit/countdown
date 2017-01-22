@@ -1,0 +1,38 @@
+body {
+    background: no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#countdown-box {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 900px;
+}
+
+.text {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#timer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10em;
+    font-weight: 500;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -5px;
+    text-shadow: 2px 2px dimgrey;
+}
+
+
