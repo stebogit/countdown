@@ -127,12 +127,16 @@
 
   // Displaying the countdown
   Countdown.prototype.display = function (sec) {
-    var output = this.conf.msgPattern;
+    var pattern = (typeof this.conf.msgPattern == "function")
+      ? this.conf.msgPattern()
+      : this.conf.msgPattern;
+    
+    var output = pattern;
 
     for (var b = 0; b < this.patterns.length; b++) {
       var currentPattern = this.patterns[b];
 
-      if (this.conf.msgPattern.indexOf(currentPattern.pattern) !== -1) {
+      if (pattern.indexOf(currentPattern.pattern) !== -1) {
         var number = Math.floor(sec / currentPattern.secs),
             displayed = this.conf.leadingZeros && number <= 9 ? "0" + number : number;
         sec -= number * currentPattern.secs;
@@ -200,8 +204,10 @@
   Countdown.prototype.defineInterval = function () {
     for (var e = this.patterns.length; e > 0; e--) {
       var currentPattern = this.patterns[e-1];
-
-      if (this.conf.msgPattern.indexOf(currentPattern.pattern) !== -1) {
+      var pattern = (typeof this.conf.msgPattern == "function")
+          ? this.conf.msgPattern()
+          : this.conf.msgPattern;
+      if (pattern.indexOf(currentPattern.pattern) !== -1) {
         this.interval = currentPattern.secs * 1000;
         return;
       }
@@ -210,7 +216,16 @@
 
   // Canceling the countdown in case it's over
   Countdown.prototype.outOfInterval = function () {
-    var message = new Date() < this.conf.dateStart ? this.conf.msgBefore : this.conf.msgAfter;
+    var message;
+    if (new Date() < this.conf.dateStart) {
+      message = (typeof this.conf.msgBefore == "function")
+          ? this.conf.msgBefore()
+          : this.conf.msgBefore;
+    } else {
+      message = (typeof this.conf.msgAfter == "function")
+          ? this.conf.msgAfter()
+          : this.conf.msgAfter;
+    }
 
     for (var d = 0; d < this.selector.length; d++) {
       if (this.selector[d].innerHTML !== message) {
