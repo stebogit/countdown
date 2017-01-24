@@ -98,5 +98,16 @@ var backgrounds = [
         "source": "Trey Ratcliff",
         "sourceUrl": "https://www.flickr.com/photos/stuckincustoms/3124621920",
         "accent": "rgb(61, 108, 180)"
+    }, {
+        "filename": "15.jpg",
+        "title": "Savoy, France",
+        "source": "Mr Friks Colors",
+        "sourceUrl": "https://500px.com/photo/101390981/home-by-mr-friks-colors-?utm_source=momentum",
+        "accent": "rgb(61, 108, 180)"
+    }, {
+        "filename": "16.jpg",
+        "title": "San Francisco, California, USA",
+        "source": "Romain Guy",
+        "sourceUrl": "https://www.flickr.com/photos/romainguy/3409068082/",
     }
 ];

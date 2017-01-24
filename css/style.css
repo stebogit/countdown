@@ -4,6 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: white;
 }
 
 
@@ -16,12 +17,11 @@ body {
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    min-width: 900px;
 }
 
 #timer {
-    color: #fff;
     font-weight: 500;
+    min-width: 900px;
 }
 
 #timer .container {
@@ -33,7 +33,7 @@ body {
 #timer tr.text td {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.5em;
-    text-shadow: 1px 1px dimgrey;
+    text-shadow: 1px 1px #505050;
 }
 
 #timer tr.numbers td{
@@ -42,15 +42,62 @@ body {
     line-height: 1em;
     padding: 0 .12em;
     letter-spacing: -5px;
-    text-shadow: 2px 2px dimgrey;
+    text-shadow: 2px 2px #505050;
 }
 
 #final-msg {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 5em;
-    text-shadow: 2px 2px dimgrey;
+    line-height: 80px;
+    text-shadow: 2px 2px #505050;
 }
-#smiley {
-    display: block;
+#img {
+    display: inline-block;
     margin: 0 auto;
+}
+
+#message {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3.5em;
+    text-shadow: 2px 2px #505050;
+    margin: auto;
+    text-align: center;
+    min-width: 900px;
+}
+
+#auth {
+    position: absolute;
+    margin: auto;
+    bottom: 1em;
+    left: 1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    text-shadow: 1px 1px #505050;
+    letter-spacing: 1px;
+}
+
+
+#source {
+letter-spacing: 2px;
+color: white;
+}
+
+footer {
+    position: absolute;
+    color: white;
+    margin: auto;
+    bottom: 1em;
+    right: 1em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .8em;
+    text-shadow: 1px 1px #505050;
+    letter-spacing: 1px;
+}
+footer a {
+    color: white;
+}
+
+footer span {
+    color: red;
+    text-shadow: 1px 1px maroon;
 }

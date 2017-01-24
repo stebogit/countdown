@@ -1,3 +1,5 @@
+/*! Countdown.js | Copyright (c) 2013 Hugo Giraudel | MIT License */
+
 (function(global) {
   "use strict";
 
